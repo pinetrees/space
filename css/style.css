@@ -235,7 +235,7 @@ header nav .menu li a{
 	padding: 100px 0;
 }
 .parallax1 {
-	background:url(../images/architecture.jpg) no-repeat center center fixed;    
+	background:url(../images/ohyeah.jpg) no-repeat center center fixed;    
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -262,7 +262,7 @@ header nav .menu li a{
     height: 2px;
     background: #252525;
 }
-.skills-box .skills-progress > p span {
+.skills-box .skills-progress > span p span {
     float: right;
     color: #434343;
 }
@@ -466,6 +466,7 @@ figure.effect-oscar:hover img {
     background-size: cover;
     width: 100%;
     float: left;   
+    margin-top: 100px;
 }
 .carousel-desc p{
 	color:#fff;
@@ -987,4 +988,9 @@ footer .footer-social a:hover{
 	left:0;
 	width:100%;
 	height:100%;
+}
+.footer-logo img {
+    height: 60px;
+    padding-bottom: 10px;
+    padding-left: 30px;
 }

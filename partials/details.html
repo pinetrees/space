@@ -1,7 +1,7 @@
 ﻿<!doctype html>
-<html lang="en" class="no-js">
+<html lang="en" class="no-js" ng-app="miniMe" ng-controller="PageCtrl">
 <head>
-    <title>miniMe</title>
+<title>{{ title }}</title>
   <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
@@ -21,6 +21,7 @@
 </div>
 <section id="closepage">
     <div class="container">
+        {{ title }}
           <div class="row">
            <div class="col-md-12 content-close-details">
                <a href="../index.html#/work" class="close-redirect"><i class="fa fa-times"></i>Close</a>
@@ -36,13 +37,13 @@
                         <div id="slider" class="flexslider .flexslider-attachments">
                             <ul class="slides">
                                 <li data-thumb="">
-                                   <img src="http://placehold.it/1100x600" alt=""/>
+                                   <img src="/images/projects/lms1.png" alt=""/>
                                </li>
   	    	                    <li data-thumb="">
-                                   <img src="http://placehold.it/1100x600" alt=""/>
+                                   <img src="/images/projects/lms2.png" alt=""/>
                                 </li>
   	    	                    <li data-thumb="">
-                                   <img src="http://placehold.it/1100x600" alt=""/>
+                                   <img src="/images/projects/lms3.png" alt=""/>
                                 </li>
                             </ul>
                         </div>
