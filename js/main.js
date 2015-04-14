@@ -61,6 +61,7 @@ app.controller("dataImagesWork", function ($scope) {
           { num: 2, category: 'branding', src: "lms.png", description: 'Love My School', url_details: "http://app.lovemyschool.in:9000/" },
           { num: 1, category: 'marketing', src: "courtier.png", description: 'Courtier', url_details: "http://www.courtierwines.com/" },
           { num: 1, category: 'marketing', src: "youstartme.png", description: 'Youstart.me', url_details: "https://www.youstart.me/" },
+          { num: 3, category: 'design', src: "esm2.png", description: 'Environmental Marketplace', url_details: "http://esm.development.tier27.com/" },
           { num: 3, category: 'design', src: "skava2.png", description: 'SkavaONE Calculator', url_details: "http://www.tier27.com/portfolio/SkavaONECalculator/" },
           ];
     $scope.images_dog = [
