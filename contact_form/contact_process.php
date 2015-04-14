@@ -1,9 +1,15 @@
 <?php
-$to = "joshua@tier27.com";
-$name = $_POST['name'];
-$message = $_POST['message'];
-$from = $_POST['email'];
-$headers = "From:" . $from;
-mail($to,$name,$message,$headers);
+require('../sendgrid-php/lib/SendGrid.php');
+$sendgrid = new SendGrid('', '');
+$email = new SendGrid\Email();
+$email
+    ->addTo('joshua@tier27.com')
+    ->setFrom($_POST['email'])
+    ->setSubject('Personal Website Inquiry!')
+    ->setText($_POST['message'])
+    ->setHtml('<strong>Hello World!</strong>')
+;
+
+$sendgrid->send($email);
 echo "Mail Sent.";
 ?>

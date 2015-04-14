@@ -58,9 +58,10 @@ app.controller('PageCtrl', function ( $scope/*, $location, $http */) {
 
 app.controller("dataImagesWork", function ($scope) {
     $scope.images_work = [
-          { num: 2, category: 'branding', src: "lms.png", description: 'Oscar is a decent man. He used to clean porches with pleasure. ', url_details: "details.html" },
-          { num: 1, category: 'marketing', src: "youstartme.png", description: 'Oscar is a decent man. He used to clean porches with pleasure. ', url_details: "details.html" },
-          { num: 3, category: 'design', src: "skava2.png", description: 'Oscar is a decent man. He used to clean porches with pleasure. ', url_details: "details.html" },
+          { num: 2, category: 'branding', src: "lms.png", description: 'Love My School', url_details: "http://app.lovemyschool.in:9000/" },
+          { num: 1, category: 'marketing', src: "courtier.png", description: 'Courtier', url_details: "http://www.courtierwines.com/" },
+          { num: 1, category: 'marketing', src: "youstartme.png", description: 'Youstart.me', url_details: "https://www.youstart.me/" },
+          { num: 3, category: 'design', src: "skava2.png", description: 'SkavaONE Calculator', url_details: "http://www.tier27.com/portfolio/SkavaONECalculator/" },
           ];
     $scope.images_dog = [
           { num: 1, category: 'branding', src: "daisy5.jpg", description: 'She loves sticks.', url_details: "details.html" },

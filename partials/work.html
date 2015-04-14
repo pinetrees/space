@@ -9,13 +9,13 @@
                 <!-- Category Filter -->
                     <div class="portfolio albumContainer activegrid" ng-controller="dataImagesWork">
 	                        
-	                <ul id="project" class="nav-pills nav-stacked rectangle-list" ng-controller="dataImagesWork">
+	                <ul id="product" class="nav-pills nav-stacked rectangle-list" ng-controller="dataImagesWork">
                             <li class="col-md-4 my-gallery-animation item grid" ng-repeat="project in images_work | filter:myFilter" >
                                 <figure class="effect-oscar">
-                                    <a href=""><img ng-src="/images/projects/{{project.src}}" alt="" /></a>                              
+                                    <a href="{{image.url_details}}"><img ng-src="/images/projects/{{project.src}}" alt="" /></a>                              
                                     <figcaption>
 							                <p>{{project.description}}</p>
-                                            <a href="partials/{{project.url_details}}" class="smooth-redirect" ></a>
+                                            <a href="{{image.url_details}}" target="_blank" class="smooth-redirect" ></a>
 						            </figcaption>	
                                 </figure>
                           </li> 
