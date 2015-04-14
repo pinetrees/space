@@ -63,14 +63,16 @@ app.controller("dataImagesWork", function ($scope) {
           { num: 3, category: 'design', src: "skava2.png", description: 'Oscar is a decent man. He used to clean porches with pleasure. ', url_details: "details.html" },
           ];
     $scope.images_dog = [
-          { num: 1, category: 'branding', src: "daisy5.jpg", description: 'Oscar is a decent man. He used to clean porches with pleasure. ', url_details: "details.html" },
-          { num: 2, category: 'design', src: "daisy7.jpg", description: 'Oscar is a decent man. He used to clean porches with pleasure. ', url_details: "details.html" },
-          { num: 3, category: 'photo', src: "daisy3.jpg", description: 'Oscar is a decent man. He used to clean porches with pleasure. ', url_details: "details.html" },
-          { num: 4, category: 'marketing', src: "daisy6.jpg", description: 'Oscar is a decent man. He used to clean porches with pleasure. ', url_details: "details.html" },
-          { num: 5, category: 'design', src: "daisy2.jpg", description: 'Oscar is a decent man. He used to clean porches with pleasure. ', url_details: "details.html" },
-          { num: 6, category: 'photo', src: "daisy9.jpg", description: 'Oscar is a decent man. He used to clean porches with pleasure. ', url_details: "details.html" },
-          { num: 7, category: 'marketing', src: "daisy8.jpg", description: 'Oscar is a decent man. He used to clean porches with pleasure. ', url_details: "details.html" },
-          { num: 8, category: 'design', src: "daisy10.jpg", description: 'Oscar is a decent man. He used to clean porches with pleasure. ', url_details: "details.html"}];
+          { num: 1, category: 'branding', src: "daisy5.jpg", description: 'She loves sticks.', url_details: "details.html" },
+          { num: 2, category: 'design', src: "daisy7.jpg", description: 'She has like-minded friends.', url_details: "details.html" },
+          { num: 3, category: 'photo', src: "daisy15.jpg", description: 'She is innocent.', url_details: "details.html" },
+          { num: 5, category: 'design', src: "daisy6.jpg", description: 'She had a friend when she was a puppy.', url_details: "details.html" },
+          { num: 6, category: 'photo', src: "daisy2.jpg", description: 'She is most at ease in the snow.', url_details: "details.html" },
+          { num: 7, category: 'marketing', src: "daisy9.jpg", description: 'She celebrates Christmas.', url_details: "details.html" },
+          { num: 8, category: 'design', src: "daisy10.jpg", description: 'She is patient.', url_details: "details.html"},
+          { num: 4, category: 'marketing', src: "daisy8.jpg", description: 'She is tolerant.', url_details: "details.html" },
+          { num: 9, category: 'design', src: "daisy14.jpg", description: 'She is extremely tolerant.', url_details: "details.html"},
+          ];
 
 });
 
